@@ -8,6 +8,7 @@ import save from './save';
 import postedBy from './postedBy';
 import pin from './pin';
 import comment from './comment';
+import like from './like';
 
 
 // Then we give our schema to the builder and provide the result to Sanity
@@ -17,6 +18,6 @@ export default createSchema({
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
-    user,save,postedBy,pin,comment
+    user,save,postedBy,pin,comment,like,
   ]),
 })

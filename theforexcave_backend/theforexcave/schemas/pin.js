@@ -48,6 +48,12 @@ export default{
             of: [{type:'save'}]
         },
         {
+            name: 'like',
+            title: 'Like',
+            type: 'array',
+            of: [{type:'like'}]
+        },
+        {
             name: 'comment',
             title: 'Comment',
             type: 'array',
